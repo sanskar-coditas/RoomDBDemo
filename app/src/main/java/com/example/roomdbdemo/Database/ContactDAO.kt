@@ -1,4 +1,4 @@
-package com.example.roomdbdemo
+package com.example.roomdbdemo.Database
 
 import androidx.lifecycle.LiveData
 import androidx.room.*
