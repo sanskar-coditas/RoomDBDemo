@@ -1,11 +1,11 @@
-package com.example.roomdbdemo.viewModels
+package com.example.roomdbdemo.viewmodel
 
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.roomdbdemo.Database.Contact
-import com.example.roomdbdemo.Repository.ContactRepository
+import com.example.roomdbdemo.db.Contact
+import com.example.roomdbdemo.repo.ContactRepository
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
