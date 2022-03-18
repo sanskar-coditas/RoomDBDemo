@@ -50,6 +50,7 @@ class MainActivity : AppCompatActivity() {
 
 //featur_2b dsbdsdsgitcheck
 //featuregit
+//feature for testing
     }
 
    /* fun getData(view: View) {
