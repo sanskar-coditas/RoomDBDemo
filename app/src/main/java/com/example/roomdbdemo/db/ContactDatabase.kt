@@ -1,4 +1,4 @@
-package com.example.roomdbdemo.Database
+package com.example.roomdbdemo.db
 
 import android.content.Context
 import androidx.room.Database
@@ -8,7 +8,6 @@ import androidx.room.RoomDatabase
 
 @Database(entities = [Contact::class], version = 1)
 abstract class ContactDatabase : RoomDatabase(){
-
     //this approch is thread safe (singleton approach)
     abstract fun contactDao(): ContactDAO
     companion object{
