@@ -54,10 +54,10 @@ class MainActivity : AppCompatActivity() {
         //feature for testing rebase
     }
 
-   /* fun getData(view: View) {
-        database.contactDao().getContact().observe( this, Observer {
-            Log.d("MainActivityLog",it.toString())
-        })*/
+//   fun getData(view: View) {
+//        database.contactDao().getContact().observe( this, Observer {
+//            Log.d("MainActivityLog",it.toString())
+//        })
 
 
 
