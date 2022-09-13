@@ -1,8 +1,8 @@
 package com.example.roomdbdemo
 
-import com.example.roomdbdemo.Repository.ContactRepository
-import com.example.roomdbdemo.Database.Contact
-import com.example.roomdbdemo.Database.ContactDatabase
+import com.example.roomdbdemo.repo.ContactRepository
+import com.example.roomdbdemo.db.Contact
+import com.example.roomdbdemo.db.ContactDatabase
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.databinding.DataBindingUtil
@@ -11,8 +11,8 @@ import androidx.lifecycle.ViewModelProvider
 import com.example.roomdbdemo.databinding.ActivityMainBinding
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
-import com.example.roomdbdemo.viewModels.MainViewModel
-import com.example.roomdbdemo.viewModels.MainViewModelFactory
+import com.example.roomdbdemo.viewmodel.MainViewModel
+import com.example.roomdbdemo.viewmodel.MainViewModelFactory
 
 class MainActivity : AppCompatActivity() {
     lateinit var database: ContactDatabase
@@ -48,14 +48,16 @@ class MainActivity : AppCompatActivity() {
 
         }
 
-
-
+//featur_2b dsbdsdsgitcheck
+//featuregit
+//feature for testing
+        //feature for testing rebase
     }
 
-   /* fun getData(view: View) {
-        database.contactDao().getContact().observe( this, Observer {
-            Log.d("MainActivityLog",it.toString())
-        })*/
+//   fun getData(view: View) {
+//        database.contactDao().getContact().observe( this, Observer {
+//            Log.d("MainActivityLog",it.toString())
+//        })
 
     //chnages to uderstand the concept of submodule
     //Changes to understand concept of submodule part 2
